@@ -1,0 +1,66 @@
+﻿body {
+    padding: 0px;
+    margin: inherit;
+    font-size: inherit;
+}
+
+h1{
+    margin: 4px;
+    font-size: 5rem;
+    font-weight:500;
+}
+
+h2 {
+    margin: 4px;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+h3 {
+    margin: 4px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+h4 {
+    margin: 4px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.heading{
+    font-stretch: extra-expanded;
+    font-size: 2.5rem;
+    font-weight:300;
+}
+
+.place {
+    font-stretch: expanded;
+    font-size: 1.75rem;
+    font-weight:100;
+}
+
+.type {
+    
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.break{
+    width: 50%;
+}
+
+p{
+    font-size: 32px;
+    font-weight:200;
+}
+
+.style1{
+    font-size: 3rem;
+    font-stretch:expanded;
+    padding-bottom:10px;
+}
+.pad{
+    padding: 50px;
+
+}
