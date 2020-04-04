@@ -42,7 +42,7 @@ h4 {
 
 .type {
     
-    font-size: 3vw;
+    font-size: 3.2vw;
     text-align:justify;
     font-weight: 300;
 }
@@ -74,9 +74,9 @@ p{
 
 }
 
-@media(min-width:768px){
+@media(min-width:640px){
     h1{
-        font-size:4.3vw;
+        font-size:4.1vw;
     }
     h2{
         font-size: 2.4vw;
