@@ -6,43 +6,44 @@
 
 h1{
     margin: 4px;
-    font-size: 4vmax;
+    font-size: 14vw;
     font-weight:400;
 }
 
 h2 {
     margin: 4px;
-    font-size: 3rem;
+    font-size: 8vw;
     font-weight: 300;
 }
 
 h3 {
     margin: 4px;
-    font-size: 2rem;
+    font-size: 6vw;
     font-weight: 300;
 }
 
 h4 {
     margin: 4px;
-    font-size: 1.5rem;
+    font-size: 5vw;
     font-weight: 300;
 }
 
 .heading{
     font-stretch: extra-expanded;
-    font-size: 2.5rem;
+    font-size: 5vw;
     font-weight:300;
 }
 
 .place {
     font-stretch: expanded;
-    font-size: 1.75rem;
+    font-size: 3.5vw;
     font-weight:100;
 }
 
 .type {
     
-    font-size: 1.5rem;
+    font-size: 3vw;
+    text-align:justify;
     font-weight: 300;
 }
 
@@ -51,16 +52,60 @@ h4 {
 }
 
 p{
-    font-size: 32px;
+    font-size: 4.5vw;
     font-weight:200;
 }
 
 .style1{
-    font-size: 3rem;
+    font-size: 9vw;
     font-stretch:expanded;
     padding-bottom:10px;
 }
-.pad{
-    padding: 50px;
 
+.style2{
+    font-size: 18vw;
+    font-stretch:extra-expanded;
+    font-weight:200;
+    
+}
+
+.pad{
+    padding: 5px;
+
+}
+
+@media(min-width:768px){
+    h1{
+        font-size:4.3vw;
+    }
+    h2{
+        font-size: 2.4vw;
+    }
+    h3{
+        font-size: 1.7vw;
+    }
+    h4{
+        font-size: 1.5vw;
+    }
+    p{
+        font-size: 1.8vw;
+    }
+    .pad{
+        padding: 3vw;
+    }
+    .style1{
+        font-size: 3vw;
+    }
+    .style2{
+        font-size: 8vw;
+    }
+    .heading{
+        font-size: 2.2vw;
+    }
+    .place{
+        font-size: 1.6vw;
+    }
+    .type{
+        font-size: 1.3vw;
+    }
 }
